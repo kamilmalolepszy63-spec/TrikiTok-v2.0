@@ -1,6 +1,6 @@
 # TriKiTok v2.0
 
-**TriKiTok** is an advanced Android application that connects to your **Triki IMU** via Bluetooth LE and translates physical gestures (rotation and shaking) into touch gestures (swipes, taps) and system commands (volume control, media play/pause) on vertical video feeds such as TikTok, Instagram Reels, and YouTube Shorts.
+**TriKiTok** let's you use your triki to scroll TikTok and other social media. It also let's you use it to control media volume.
 
 ---
 
@@ -37,7 +37,7 @@
 
 1. **Grant Bluetooth Permissions:** Tap **Bluetooth Permissions** in the Home screen quick start card or Settings.
 2. **Enable Accessibility Service:** Tap **Enable Accessibility Service**, find **TriKiTok** in your Android accessibility settings, and turn it on.
-3. **Connect:** Wake up your Triki ring and tap **Connect**.
+3. **Connect:** Wake up your Triki and tap **Connect**.
 4. **Open TikTok** and enjoy hands-free scrolling, volume control, and media management!
 
 ---
