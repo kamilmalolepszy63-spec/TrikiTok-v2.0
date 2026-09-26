@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="triki_primary">#FE2C55</color>
+    <color name="triki_primary_dark">#C41E3A</color>
+    <color name="triki_background">#FFFFFF</color>
+    <color name="triki_surface">#FFFFFF</color>
+    <color name="triki_text">#161823</color>
+    <color name="triki_text_secondary">#666666</color>
+    <color name="triki_divider">#DDDDDD</color>
+    <color name="triki_card_stroke">#E0E0E0</color>
+
+    <color name="motion_idle_bg">#F8F9FA</color>
+    <color name="motion_idle_text">#495057</color>
+    <color name="motion_cw_bg">#D1E7DD</color>
+    <color name="motion_cw_text">#0F5132</color>
+    <color name="motion_ccw_bg">#CFE2FF</color>
+    <color name="motion_ccw_text">#084298</color>
+    <color name="motion_shake_bg">#FFE69C</color>
+    <color name="motion_shake_text">#664D03</color>
+
+    <color name="warning_bg">#FFF3CD</color>
+    <color name="warning_text">#664D03</color>
+</resources>

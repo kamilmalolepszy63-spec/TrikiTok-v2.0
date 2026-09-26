@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TrikiTok</string>
+    <string name="accessibility_service_description">Allows TrikiTok to turn Triki IMU gestures (rotation / shake) into swipe and tap gestures in vertical video apps like TikTok. It does not read screen content.</string>
+
+    <string name="status_disconnected">Disconnected</string>
+    <string name="label_status">Status</string>
+    <string name="label_battery">Battery Level</string>
+    <string name="btn_connect">Connect</string>
+    <string name="btn_disconnect">Disconnect</string>
+    <string name="btn_accessibility">Enable Accessibility Service</string>
+    <string name="btn_grant_permissions">Bluetooth Permissions</string>
+    <string name="label_settings">Gesture Settings &amp; Customization</string>
+    <string name="label_rotation_threshold">Rotation Sensitivity (deg/s)</string>
+    <string name="label_shake_threshold">Shake Sensitivity</string>
+    <string name="label_invert">Invert Scroll Direction</string>
+    <string name="label_shake_tap">Shake = Tap (Play / Pause)</string>
+    <string name="btn_save">Save Changes</string>
+    <string name="accessibility_not_enabled">Accessibility service is disabled – swipes won\'t reach TikTok. Tap "Enable Accessibility Service" and turn TrikiTok on.</string>
+    <string name="accessibility_enabled">Accessibility Service Enabled</string>
+
+    <string name="title_motion_monitor">Live IMU Motion Monitor</string>
+    <string name="motion_idle">⏸ Idle (No Motion)</string>
+    <string name="motion_rotate_cw">🔄 Rotate Clockwise</string>
+    <string name="motion_rotate_ccw">🔄 Rotate Counter-Clockwise</string>
+    <string name="motion_shake">⚡ Shake Detected</string>
+    <string name="label_last_gesture">Last Action: None</string>
+    <string name="msg_settings_saved">Settings saved and applied successfully.</string>
+
+    <string name="label_action_cw">Action: Rotate Right ↻</string>
+    <string name="label_action_ccw">Action: Rotate Left ↺</string>
+    <string name="label_action_shake">Action: Shake ⚡</string>
+    <string name="label_theme">App Theme</string>
+    <string name="label_language">App Language</string>
+    <string name="btn_change_language">Language 🌐</string>
+    <string name="btn_change_theme">Theme 🎨</string>
+    <string name="dialog_language_title">Select Language / Wybierz język</string>
+    <string name="dialog_theme_title">Select App Theme</string>
+    <string name="dialog_action_title">Select Gesture Action</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_ok">Apply</string>
+
+    <string name="action_next">Scroll Down (Next Video) ⬇</string>
+    <string name="action_prev">Scroll Up (Previous Video) ⬆</string>
+    <string name="action_tap">Single Tap (Play / Pause) 👆</string>
+    <string name="action_double">Double Tap (Like ❤️) 👆👆</string>
+    <string name="action_left">Swipe Left ⬅</string>
+    <string name="action_right">Swipe Right ➡</string>
+    <string name="action_volume_up">Volume Up 🔊</string>
+    <string name="action_volume_down">Volume Down 🔉</string>
+    <string name="action_media_play_pause">Play / Pause (Music Player) ⏯</string>
+    <string name="action_none">None (Disabled)</string>
+
+    <string name="subtitle_app">Smart IMU Motion Controller</string>
+    <string name="label_imu_format">Rotation (Gz): %+.1f deg/s (thresh: %.1f) | Shake: %.1f (thresh: %.1f)</string>
+
+    <string name="theme_pink">TikTok Pink 🌸</string>
+    <string name="theme_blue">Ocean Blue 🌊</string>
+    <string name="theme_orange">Sunset Orange 🌅</string>
+    <string name="theme_green">Emerald Green 🌿</string>
+    <string name="theme_purple">Cyberpunk Purple ⚡</string>
+    <string name="theme_cyan">Neon Cyan 💎</string>
+    <string name="theme_red">Ruby Red 🌹</string>
+    <string name="theme_gold">Midnight Gold ✨</string>
+
+    <string name="label_device_name">Bluetooth Device Name</string>
+    <string name="label_keep_screen_on">Keep Screen Awake (Wake Lock)</string>
+    <string name="label_haptic">Subtle Haptic Tick on Gesture</string>
+
+    <string name="label_last_action_prefix">Last Action: </string>
+    <string name="label_action_disabled">Disabled</string>
+    <string name="label_action_error">⚠️ Dispatch Error!</string>
+    <string name="label_action_no_accessibility">⚠️ Accessibility DISABLED!</string>
+    <string name="label_quick_start">Quick Start &amp; Permissions</string>
+</resources>

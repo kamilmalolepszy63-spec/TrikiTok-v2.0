@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.TrikiTok" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/triki_primary</item>
+        <item name="colorPrimaryDark">@color/triki_primary_dark</item>
+        <item name="colorAccent">@color/triki_primary</item>
+        <item name="android:windowBackground">@color/triki_background</item>
+        <item name="colorSurface">@color/triki_surface</item>
+        <item name="colorOnBackground">@color/triki_text</item>
+        <item name="colorOnSurface">@color/triki_text</item>
+    </style>
+
+    <style name="Theme.TrikiTok.Pink" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#FE2C55</item>
+        <item name="colorPrimaryDark">#C41E3A</item>
+        <item name="colorAccent">#FE2C55</item>
+        <item name="android:windowBackground">@color/triki_background</item>
+        <item name="colorSurface">@color/triki_surface</item>
+        <item name="colorOnBackground">@color/triki_text</item>
+        <item name="colorOnSurface">@color/triki_text</item>
+    </style>
+
+    <style name="Theme.TrikiTok.Blue" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#0d6efd</item>
+        <item name="colorPrimaryDark">#0a58ca</item>
+        <item name="colorAccent">#0d6efd</item>
+        <item name="android:windowBackground">@color/triki_background</item>
+        <item name="colorSurface">@color/triki_surface</item>
+        <item name="colorOnBackground">@color/triki_text</item>
+        <item name="colorOnSurface">@color/triki_text</item>
+    </style>
+
+    <style name="Theme.TrikiTok.Orange" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#fd7e14</item>
+        <item name="colorPrimaryDark">#ca6510</item>
+        <item name="colorAccent">#fd7e14</item>
+        <item name="android:windowBackground">@color/triki_background</item>
+        <item name="colorSurface">@color/triki_surface</item>
+        <item name="colorOnBackground">@color/triki_text</item>
+        <item name="colorOnSurface">@color/triki_text</item>
+    </style>
+
+    <style name="Theme.TrikiTok.Green" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#198754</item>
+        <item name="colorPrimaryDark">#146c43</item>
+        <item name="colorAccent">#198754</item>
+        <item name="android:windowBackground">@color/triki_background</item>
+        <item name="colorSurface">@color/triki_surface</item>
+        <item name="colorOnBackground">@color/triki_text</item>
+        <item name="colorOnSurface">@color/triki_text</item>
+    </style>
+
+    <style name="Theme.TrikiTok.Purple" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#8338ec</item>
+        <item name="colorPrimaryDark">#5e22c9</item>
+        <item name="colorAccent">#8338ec</item>
+        <item name="android:windowBackground">@color/triki_background</item>
+        <item name="colorSurface">@color/triki_surface</item>
+        <item name="colorOnBackground">@color/triki_text</item>
+        <item name="colorOnSurface">@color/triki_text</item>
+    </style>
+
+    <style name="Theme.TrikiTok.Cyan" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#00f5d4</item>
+        <item name="colorPrimaryDark">#00b4d8</item>
+        <item name="colorAccent">#00f5d4</item>
+        <item name="android:windowBackground">@color/triki_background</item>
+        <item name="colorSurface">@color/triki_surface</item>
+        <item name="colorOnBackground">@color/triki_text</item>
+        <item name="colorOnSurface">@color/triki_text</item>
+    </style>
+
+    <style name="Theme.TrikiTok.Red" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#e63946</item>
+        <item name="colorPrimaryDark">#b71c1c</item>
+        <item name="colorAccent">#e63946</item>
+        <item name="android:windowBackground">@color/triki_background</item>
+        <item name="colorSurface">@color/triki_surface</item>
+        <item name="colorOnBackground">@color/triki_text</item>
+        <item name="colorOnSurface">@color/triki_text</item>
+    </style>
+
+    <style name="Theme.TrikiTok.Gold" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#ffb703</item>
+        <item name="colorPrimaryDark">#fb8500</item>
+        <item name="colorAccent">#ffb703</item>
+        <item name="android:windowBackground">@color/triki_background</item>
+        <item name="colorSurface">@color/triki_surface</item>
+        <item name="colorOnBackground">@color/triki_text</item>
+        <item name="colorOnSurface">@color/triki_text</item>
+    </style>
+</resources>

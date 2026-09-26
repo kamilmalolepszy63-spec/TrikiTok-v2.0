@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/32689311/README.md)
 # TriKiTok v2.0
 
 **TriKiTok** is an advanced Android application that connects to your **Triki IMU** via Bluetooth LE and translates physical gestures (rotation and shaking) into touch gestures (swipes, taps) and system commands (volume control, media play/pause) on vertical video feeds such as TikTok, Instagram Reels, and YouTube Shorts.

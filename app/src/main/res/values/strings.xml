@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TrikiTok</string>
+    <string name="accessibility_service_description">Lets TrikiTok turn Triki gestures (rotate / shake) into swipe and tap gestures in whichever app is on screen, such as TikTok. It does not read screen content.</string>
+
+    <string name="status_disconnected">Rozłączono</string>
+    <string name="label_status">Status</string>
+    <string name="label_battery">Bateria</string>
+    <string name="btn_connect">Połącz</string>
+    <string name="btn_disconnect">Rozłącz</string>
+    <string name="btn_accessibility">Włącz usługę dostępności</string>
+    <string name="btn_grant_permissions">Uprawnienia Bluetooth</string>
+    <string name="label_settings">Ustawienia</string>
+    <string name="label_rotation_threshold">Czułość obrotu (deg/s)</string>
+    <string name="label_shake_threshold">Czułość trzęsienia</string>
+    <string name="label_invert">Odwróć kierunek przewijania</string>
+    <string name="label_shake_tap">Trzęsienie = stuknięcie (play/pause)</string>
+    <string name="btn_save">Zapisz ustawienia</string>
+    <string name="accessibility_not_enabled">Usługa dostępności nie jest włączona - przewijanie nie dotrze do TikToka. Kliknij \"Włącz usługę dostępności\" i włącz TrikiTok.</string>
+    <string name="accessibility_enabled">Usługa dostępności włączona</string>
+
+    <string name="title_motion_monitor">Wykrywanie ruchu (IMU Live)</string>
+    <string name="motion_idle">⏸ Spoczynek (Brak ruchu)</string>
+    <string name="motion_rotate_cw">🔄 Kręcenie w prawo (Rotate CW)</string>
+    <string name="motion_rotate_ccw">🔄 Kręcenie w lewo (Rotate CCW)</string>
+    <string name="motion_shake">⚡ Trzęsienie (Shake)</string>
+    <string name="label_last_gesture">Ostatnia akcja: Brak</string>
+    <string name="msg_settings_saved">Ustawienia zostały zapisane i zastosowane.</string>
+
+    <string name="label_action_cw">Akcja: Kręcenie w prawo ↻</string>
+    <string name="label_action_ccw">Akcja: Kręcenie w lewo ↺</string>
+    <string name="label_action_shake">Akcja: Trzęsienie ⚡</string>
+    <string name="label_theme">Motyw aplikacji</string>
+    <string name="label_language">Język aplikacji</string>
+    <string name="btn_change_language">Język 🌐</string>
+    <string name="btn_change_theme">Motyw 🎨</string>
+    <string name="dialog_language_title">Wybierz język / Select Language</string>
+    <string name="dialog_theme_title">Wybierz motyw aplikacji</string>
+    <string name="dialog_action_title">Wybierz akcję gestu</string>
+    <string name="dialog_cancel">Anuluj</string>
+    <string name="dialog_ok">Zastosuj</string>
+
+    <string name="action_next">Przewiń w dół (Następny film) ⬇</string>
+    <string name="action_prev">Przewiń w górę (Poprzedni film) ⬆</string>
+    <string name="action_tap">Jednokrotne stuknięcie (Play / Pause) 👆</string>
+    <string name="action_double">Podwójne stuknięcie (Polubienie ❤️) 👆👆</string>
+    <string name="action_left">Przewiń w lewo ⬅</string>
+    <string name="action_right">Przewiń w prawo ➡</string>
+    <string name="action_volume_up">Zwiększ głośność (Volume +) 🔊</string>
+    <string name="action_volume_down">Zmniejsz głośność (Volume -) 🔉</string>
+    <string name="action_media_play_pause">Play / Pause (Odtwarzacz muzyki) ⏯</string>
+    <string name="action_none">Brak akcji (Wyłączone)</string>
+
+    <string name="subtitle_app">Inteligentny Kontroler Ruchu IMU</string>
+    <string name="label_imu_format">Obrót (Gz): %+.1f deg/s (próg: %.1f) | Trzęsienie: %.1f (próg: %.1f)</string>
+
+    <string name="theme_pink">TikTok Różowy 🌸</string>
+    <string name="theme_blue">Oceaniczny Niebieski 🌊</string>
+    <string name="theme_orange">Zachód Słońca 🌅</string>
+    <string name="theme_green">Szmaragdowa Zieleń 🌿</string>
+    <string name="theme_purple">Cyberpunk Fiolet ⚡</string>
+    <string name="theme_cyan">Neonowy Cyjan 💎</string>
+    <string name="theme_red">Rubinowa Czerwień 🌹</string>
+    <string name="theme_gold">Złota Północ ✨</string>
+
+    <string name="label_device_name">Nazwa urządzenia Bluetooth</string>
+    <string name="label_keep_screen_on">Nie wygaszaj ekranu (Wake Lock)</string>
+    <string name="label_haptic">Delikatna wibracja przy geście</string>
+
+    <string name="label_last_action_prefix">Ostatnia akcja: </string>
+    <string name="label_action_disabled">Wyłączone</string>
+    <string name="label_action_error">⚠️ Błąd wysłania!</string>
+    <string name="label_action_no_accessibility">⚠️ Dostępność WYŁĄCZONA!</string>
+    <string name="label_quick_start">Szybki start i uprawnienia</string>
+</resources>

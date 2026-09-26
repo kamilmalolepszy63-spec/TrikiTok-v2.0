@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:background="@color/triki_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Dialog Header -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/triki_primary"
+            android:text="@string/label_settings"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Section 1: Appearance & Language -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:fontFamily="sans-serif-bold"
+            android:textColor="@color/triki_primary"
+            android:textAllCaps="true"
+            android:letterSpacing="0.05"
+            android:text="@string/label_theme"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp">
+
+            <Button
+                android:id="@+id/btnChangeLanguage"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="6dp"
+                android:textSize="13sp"
+                style="?attr/materialButtonOutlinedStyle"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/btn_change_language" />
+
+            <Button
+                android:id="@+id/btnChangeTheme"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:layout_marginStart="6dp"
+                android:textSize="13sp"
+                style="?attr/materialButtonOutlinedStyle"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/btn_change_theme" />
+        </LinearLayout>
+
+        <!-- Section 2: Gesture Action Mapping -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:fontFamily="sans-serif-bold"
+            android:textColor="@color/triki_primary"
+            android:textAllCaps="true"
+            android:letterSpacing="0.05"
+            android:text="Przypisanie gestów"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Action CW -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:fontFamily="sans-serif-bold"
+            android:textColor="@color/triki_text_secondary"
+            android:text="@string/label_action_cw" />
+
+        <Button
+            android:id="@+id/btnActionCw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="12dp"
+            style="?attr/materialButtonOutlinedStyle"
+            android:gravity="start|center_vertical"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="12dp"
+            android:minHeight="56dp"
+            android:singleLine="false"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="13sp"
+            android:textColor="@color/triki_text"
+            android:text="Action" />
+
+        <!-- Action CCW -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:fontFamily="sans-serif-bold"
+            android:textColor="@color/triki_text_secondary"
+            android:text="@string/label_action_ccw" />
+
+        <Button
+            android:id="@+id/btnActionCcw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="12dp"
+            style="?attr/materialButtonOutlinedStyle"
+            android:gravity="start|center_vertical"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="12dp"
+            android:minHeight="56dp"
+            android:singleLine="false"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="13sp"
+            android:textColor="@color/triki_text"
+            android:text="Action" />
+
+        <!-- Action Shake -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:fontFamily="sans-serif-bold"
+            android:textColor="@color/triki_text_secondary"
+            android:text="@string/label_action_shake" />
+
+        <Button
+            android:id="@+id/btnActionShake"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="20dp"
+            style="?attr/materialButtonOutlinedStyle"
+            android:gravity="start|center_vertical"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="12dp"
+            android:minHeight="56dp"
+            android:singleLine="false"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="13sp"
+            android:textColor="@color/triki_text"
+            android:text="Action" />
+
+        <!-- Section 3: IMU Sensitivity & Device -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:fontFamily="sans-serif-bold"
+            android:textColor="@color/triki_primary"
+            android:textAllCaps="true"
+            android:letterSpacing="0.05"
+            android:text="Czułość i Urządzenie"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:fontFamily="sans-serif-bold"
+            android:textColor="@color/triki_text_secondary"
+            android:text="@string/label_device_name" />
+
+        <EditText
+            android:id="@+id/editDeviceName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:autofillHints="name"
+            android:textColor="@color/triki_text"
+            android:textColorHint="@color/triki_text_secondary"
+            android:hint="@string/app_name"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:fontFamily="sans-serif-bold"
+            android:textColor="@color/triki_text_secondary"
+            android:text="@string/label_rotation_threshold" />
+
+        <EditText
+            android:id="@+id/editRotationThreshold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:autofillHints="number"
+            android:textColor="@color/triki_text"
+            android:textColorHint="@color/triki_text_secondary"
+            android:hint="25"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:fontFamily="sans-serif-bold"
+            android:textColor="@color/triki_text_secondary"
+            android:text="@string/label_shake_threshold" />
+
+        <EditText
+            android:id="@+id/editShakeThreshold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:autofillHints="number"
+            android:textColor="@color/triki_text"
+            android:textColorHint="@color/triki_text_secondary"
+            android:hint="60"
+            android:layout_marginBottom="16dp" />
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/switchInvert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/triki_text"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/label_invert" />
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/switchShakeTap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/triki_text"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/label_shake_tap" />
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/switchKeepScreenOn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/triki_text"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/label_keep_screen_on" />
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/switchHaptic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:textColor="@color/triki_text"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/label_haptic" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/btn_save" />
+
+    </LinearLayout>
+</ScrollView>
