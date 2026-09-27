@@ -46,7 +46,7 @@ Volume Up 🔊 / Volume Down 🔉
 
 None (Disabled)
 
-* **Subtle Haptic Feedback Tick:** -delicate system haptic feedback (`EFFECT_TICK`) on gesture execution.
+* **Haptic Feedback Tick:** -delicate system haptic feedback (`EFFECT_TICK`) on gesture execution.
 
 * **Wake Lock (Keep Screen Awake):** toggle to keep the screen on while connected for hands- viewing.
 
